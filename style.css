@@ -1,0 +1,32 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: beige;
+  color:orangered;
+  margin:0px;
+  padding: 0px;
+}
+
+header{
+  background: brown;
+  color:burlywood;
+  padding:20px;
+  text-align: center;
+}
+
+section{
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 600px;
+  background: khaki;
+  border-radius: 16px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.212);
+}
+
+h2{
+  color: orangered;
+}
+
+footer{
+  text-align: center;
+  background: khaki;
+}
