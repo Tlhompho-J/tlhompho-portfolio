@@ -7,27 +7,56 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+<nav>
+  <ul class="navbar">
+<li><a href="#">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#projects">Projects</a></li>
+
+  </ul>
+</nav>
+
+  <header id="home">
     <h1>Hello, I am Tlhompho Lesufi.</h1>
     <p>Welcome to my Portfolio. Please engage and indulge</p>
   </header>
 
-  <section class="about">
+  <section class="about" id="about">
     <h2>About me.</h2>
     <p>I am a software developer, currently engaged on FNB App Academy.</p>
   </section>
 
-  <section class="projects">
+  <section class="projects" id="projects">
     <h2>Projects.</h2>
-    <ul>
-      <li>Portfolio Website</li>
-      <li>Lost and Found System</li>
-      <li>E-commerce Management System</li>
-    </ul>
+    <div class="projects">
+      <div class="project-card">
+        <h4>Website Portfolio</h4>
+        <p>A project to showcase all the
+           projects I have worked on & my skills.</p>
+        <a href="https://tlhompho102-portfolio.netlify.app/" target="_blank">View Project</a>
+      </div>
+
+            <div class="project-card">
+        <h4>Lost and Found System</h4>
+        <p>A Lost and Found System that users will use to locate lost items.</p>
+        <a href="#">View Project</a>
+      </div>
+
+            <div class="project-card">
+        <h4>Train Management System</h4>
+        <p>A system that manages train schedules for a local municipality.</p>
+        <a href="#">View Project</a>
+      </div>
+    </div>
   </section>
 
   <footer>
-    <p>Contact Me On: 0790750352, Email: mpho10@gmail.com</p>
+    <p> &copy 2025 Tlhompho Lesufi</p>
+    <div class="social-links">
+      <a href="https://instagram.com/tlhompho_102" target="_blank">Instagram</a>
+      <a href="https://github.com/Tlhompho-J/" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/tlhompho-lesufi102" target="_blank">LinkedIn</a>
+    </div>
   </footer>
 </body>
 </html>
